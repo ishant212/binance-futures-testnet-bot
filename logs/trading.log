@@ -1,31 +1,3 @@
-2026-05-18 21:03:07,539 - INFO - Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
-2026-05-18 21:03:08,729 - INFO - Order Response: {}
-2026-05-18 21:03:57,598 - INFO - Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
-2026-05-18 21:03:58,855 - INFO - Order Response: {}
-2026-05-18 21:04:05,477 - INFO - Order Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 150000.0, 'timeInForce': 'GTC'}
-2026-05-18 21:04:06,399 - INFO - Order Response: {}
-2026-05-18 21:04:54,118 - INFO - Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'newOrderRespType': 'RESULT'}
-2026-05-18 21:04:55,287 - INFO - Order Response: {}
-2026-05-18 21:06:28,291 - INFO - Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
-2026-05-18 21:06:29,503 - INFO - Order Response: {}
-2026-05-18 21:06:49,505 - INFO - Order Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 150000.0, 'timeInForce': 'GTC'}
-2026-05-18 21:06:50,501 - INFO - Order Response: {}
-2026-05-18 21:23:06,365 - INFO - Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1779119586365, 'signature': '4086c8ef1272bec2b4dc6aaa306dec56dd789bc4345a00bc9b196282f784f9e9'}
-2026-05-18 21:23:07,197 - INFO - Order Response: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action'}
-2026-05-18 21:30:17,513 - INFO - Order Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'timestamp': 1779120017513, 'price': 150000.0, 'timeInForce': 'GTC', 'signature': '0e0fdbc2eb7844c6c0bf22d21b9061066920e04203bbe45f29a95f00128c968e'}
-2026-05-18 21:30:18,241 - INFO - Order Response: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action'}
-2026-05-18 21:32:13,163 - INFO - Order Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 150000.0, 'timeInForce': 'GTC'}
-2026-05-18 21:32:14,340 - INFO - Order Response: {}
-2026-05-18 21:32:32,284 - INFO - Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
-2026-05-18 21:32:33,324 - INFO - Order Response: {}
-2026-05-18 21:34:56,065 - INFO - Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
-2026-05-18 21:34:57,025 - ERROR - Binance API Error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
-2026-05-18 22:26:35,167 - INFO - Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
-2026-05-18 22:26:35,339 - INFO - Order Response: {'symbol': 'BTCUSDT', 'orderId': 4804043, 'orderListId': -1, 'clientOrderId': 'x-HNA2TXFJ2731de30ff4995b1edaae4', 'transactTime': 1779123395122, 'price': '0.00000000', 'origQty': '0.00100000', 'executedQty': '0.00100000', 'origQuoteOrderQty': '0.00000000', 'cummulativeQuoteQty': '76.44200000', 'status': 'FILLED', 'timeInForce': 'GTC', 'type': 'MARKET', 'side': 'BUY', 'workingTime': 1779123395122, 'fills': [{'price': '76442.00000000', 'qty': '0.00100000', 'commission': '0.00000000', 'commissionAsset': 'BTC', 'tradeId': 1624554}], 'selfTradePreventionMode': 'EXPIRE_MAKER'}
-2026-05-18 22:27:28,803 - INFO - Order Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 150000.0, 'timeInForce': 'GTC'}
-2026-05-18 22:27:28,959 - INFO - Order Response: {'symbol': 'BTCUSDT', 'orderId': 4804362, 'orderListId': -1, 'clientOrderId': 'x-HNA2TXFJ82dc0cc4942343d2efd92a', 'transactTime': 1779123448748, 'price': '150000.00000000', 'origQty': '0.00100000', 'executedQty': '0.00000000', 'origQuoteOrderQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'NEW', 'timeInForce': 'GTC', 'type': 'LIMIT', 'side': 'SELL', 'workingTime': 1779123448748, 'fills': [], 'selfTradePreventionMode': 'EXPIRE_MAKER'}
-2026-05-18 22:36:53,527 - INFO - Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
-2026-05-18 22:36:54,334 - ERROR - Unexpected Error: name 'response' is not defined
 2026-05-18 22:37:43,568 - INFO - Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
 2026-05-18 22:37:44,320 - INFO - Order Response: {'orderId': 13157216339, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ27aeda2ca6207c283099d1', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1779124064074}
 2026-05-18 22:38:27,627 - INFO - Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'newOrderRespType': 'RESULT'}
