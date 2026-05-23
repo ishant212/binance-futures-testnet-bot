@@ -48,7 +48,7 @@ trading_bot/
 ## 1. Clone Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/ishant212/binance-futures-testnet-bot
 cd trading_bot
 ```
 
